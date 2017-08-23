@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="7dp"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/iv_mgi_gamePhoto"
+        android:layout_width="match_parent"
+        android:layout_height="108dp"
+        android:layout_margin="10dp"
+        android:src="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/tv_mgi_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/iv_mgi_gamePhoto"
+        android:layout_marginLeft="5dp"
+        android:maxLength="24"
+        android:singleLine="true"
+        android:ellipsize="end"
+        android:text=""
+        android:textColor="#333333"
+        android:textSize="16sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tv_mgi_title"
+        android:layout_below="@+id/tv_mgi_title"
+        android:layout_marginTop="5dp"
+        android:src="@drawable/liulan" />
+
+    <TextView
+        android:id="@+id/tv_mgi_hunmanNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imageView1"
+        android:layout_marginLeft="5dp"
+        android:layout_toRightOf="@+id/imageView1"
+        android:text=""
+        android:textColor="#777777"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/iv_mgvi_zhibozhong"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/sy_zhibozhong" />
+
+</RelativeLayout>

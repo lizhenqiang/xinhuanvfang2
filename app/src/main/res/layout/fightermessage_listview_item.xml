@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_fmli_item"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1.5"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:id="@+id/iv_grli_fightPhone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/icon" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/tv_grli_fighterOne"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="青格勒"
+                android:textSize="12sp" />
+
+            <ImageView
+                android:id="@+id/iv_gli_sex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:src="@drawable/nan" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/age"
+                android:textColor="@color/remind_color"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv_fli_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="27岁"
+                android:textColor="@color/remind_color"
+                android:textSize="10sp" />
+
+            <View
+                android:layout_width="0.5dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:background="@color/split_line" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/country"
+                android:textColor="@color/remind_color"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv_fli_country"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="中国"
+                android:textColor="@color/remind_color"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="7dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/level"
+                android:textColor="@color/remind_color"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv_fli_level"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="男子84公斤级"
+                android:textColor="@color/remind_color"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/honor"
+                android:textColor="@color/remind_color"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv_fli_honor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="k1世界冠军"
+                android:textColor="@color/remind_color"
+                android:textSize="10sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_fli_fighterDetails"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="0.5"
+        android:orientation="horizontal" >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/xiangyou" />
+    </RelativeLayout>
+
+</LinearLayout>

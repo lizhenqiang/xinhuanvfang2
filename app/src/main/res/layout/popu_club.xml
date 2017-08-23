@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_pClub_beijing"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_select"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/beijing"
+            android:textColor="@color/main_text"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_pClub_shanghai"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_select"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="西安赛区"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_pClub_hainan"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_select"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="济南赛区"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_pClub_heilongjiang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_select"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="石家庄赛区"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_pClub_guangzhou"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_select"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/guangzhou"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_pClub_shanxi"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_select"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="成都赛区"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btn_pClub_shandong"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_select"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/shandong"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_pClub_nanjing"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_select"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/nanjing"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btn_pClub_xian"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_select"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/xian"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

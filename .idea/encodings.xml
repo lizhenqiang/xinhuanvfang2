@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/AlbumGridViewAdapter.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/AttentionFighterAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/AttentionGameAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/BreakEggFragmentRecordAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/DeleteCollectionAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/DetailActivityAdapterAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/DreamListAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/FighterDetailsAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/FighterMessageAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/GameGussingAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/GameNewsAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/GameReviewAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/GoldenGloveAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/GoodsAdressAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/GoodsDetailsViewpagerAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/GussingResultAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/MathGameAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/MessageBoardAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/MyCollectionAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/MyShareAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/MySuperDreamAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/MySuperDreanFragmentYishixianAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/PopupWindowAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/SearchGameAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/ShoppingCarAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/SuperDreamGridViewAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/TopNewsAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/ViewpagerAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/adapter/shoppingmallYiFuKuanChildAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/base/BaseActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/db/BaseDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/db/DataHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/db/SqliteHelper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/game/GameFragment.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/main/GameGussingFragment.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/mine/BreakEggFragmentRecord.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/mine/BuyGoldenGloveActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/mine/MyCollectionActivity.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/mine/RechargeJinShouTao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/model/UserInfo.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/service/to/LoginReq.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/service/to/LoginRsp.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/store/ShoppingCarActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/utils/Coder.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/utils/Config.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/utils/DataSwitch.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/utils/HttpUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/utils/ListViewForScrollView.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/com/bigdata/xinhuanufang/utils/MD5Util.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/video/src/main/java/com/bigdata/leo/LivePlayerActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/video/src/main/java/com/bigdata/leo/MainActivity.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/weixinlogin/src/main/java/com/example/weixinlogin/MainActivity.java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

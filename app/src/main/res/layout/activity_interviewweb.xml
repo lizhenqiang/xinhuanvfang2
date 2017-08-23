@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:id="@+id/fullscreen_custom_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone" />
+
+
+    -
+
+    <FrameLayout
+        android:id="@+id/main_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <WebView
+            android:id="@+id/webview_player"
+            android:layout_width="match_parent"
+            android:hardwareAccelerated="true"
+            android:layout_height="match_parent"
+            android:scrollbars="none" />
+
+    </FrameLayout>
+
+</FrameLayout>

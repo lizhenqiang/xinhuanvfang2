@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/age1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_select"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="~19岁"
+            android:textColor="@color/main_text"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/age2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_select"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="20~29岁"
+            android:textSize="12sp" />
+
+        <Button
+             android:id="@+id/age3"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_select"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="30岁~"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/age4"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_select"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/heilongjiang"
+            android:textSize="12sp" />
+
+        <Button
+             android:id="@+id/age5"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_select"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/guangzhou"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/age6"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_select"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/shanxi"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="gone"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/age7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_select"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/shandong"
+            android:textSize="12sp" />
+
+        <Button
+             android:id="@+id/age8"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_select"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="@string/nanjing"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/age9"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_select"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:visibility="invisible"
+            android:enabled="false"
+            android:text="@string/xian"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+</LinearLayout>

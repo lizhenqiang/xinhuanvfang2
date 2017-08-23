@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:orientation="horizontal" >
+
+  <!--   <CheckBox
+        android:id="@+id/super_dream_checkbox"
+        style="@style/CustomCheckboxTheme"
+        android:layout_width="17dp"
+        android:layout_height="22dp"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dp" /> -->
+
+    <ImageView
+        android:paddingLeft="10dp"
+        android:id="@+id/super_dream_image"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_vertical" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingLeft="10dp" >
+
+        <TextView
+            android:id="@+id/super_dream_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="首届我是" />
+
+        <TextView
+            android:id="@+id/super_dream_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="当前进度" />
+
+        <LinearLayout
+            android:id="@+id/ll_sli_bianji"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:gravity="left"
+            android:orientation="horizontal" >
+
+            <!-- 加号 -->
+            <ImageButton
+                android:visibility="gone"
+                android:id="@+id/jinshoutao_jianshao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/jian" />
+            <!-- 商品数量 -->
+
+            <TextView
+                android:id="@+id/jinshoutao_count"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/juxing"
+                android:gravity="center"
+                android:text="88"
+                android:textSize="13sp" />
+            <!-- 减号 -->
+
+
+            <ImageButton
+
+                android:id="@+id/jinshoutao_zengjia"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:background="@drawable/jia" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

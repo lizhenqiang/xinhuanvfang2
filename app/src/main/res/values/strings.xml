@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">心花怒放</string>
+    <string name="menu_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <!-- 登录界面 -->
+    <string name="login">登录</string>
+
+    <!-- 主页界面 -->
+    <string name="firstPage">首页</string>
+    <string name="game">比赛</string>
+    <string name="store">商城</string>
+    <string name="mine">我的</string>
+
+    <!-- 首页Fragment -->
+    <string name="xinhuanufang">心花怒放</string>
+    <string name="superDream">超级梦想</string>
+    <string name="guessing">加油竞猜</string>
+    <string name="luckyGame">抽奖游戏</string>
+
+    <!-- 加油竞猜 -->
+    <string name="gameGuessing">比赛竞猜</string>
+    <string name="guessingResult">竞猜结果</string>
+    <string name="gameTime">距离开赛还有：</string>
+    <string name="guessSucceful">竞猜成功</string>
+    <string name="join">已参与</string>
+    <string name="timeH">小时</string>
+    <string name="timeM">分</string>
+
+    <!-- 超级梦想 -->
+    <string name="congratulation">恭喜:</string>
+    <string name="dreamProgress">全部梦想进度</string>
+
+    <!-- 消息中心 -->
+    <string name="messageCenter">消息中心</string>
+    <string name="checkDetails">查看详情</string>
+    <string name="messageDetails">消息详情</string>
+
+    <!-- 实现梦想名单 -->
+    <string name="dreamListName">实现梦想名单</string>
+    <string name="dataRefresh">数据更新于</string>
+    <string name="dreamPublish">往期梦想揭晓</string>
+    <string name="dreamGoods">梦想商品:</string>
+    <string name="LuckyHumman">幸运者:</string>
+    <string name="userID">用户ID:</string>
+    <string name="joinNum">本期参与:</string>
+
+    <!-- 比赛 -->
+    <string name="gameReview">赛事回看</string>
+    <string name="fighterMsg">选手信息</string>
+    <string name="news">新闻资讯</string>
+    <string name="searchGame">搜索比赛</string>
+    <string name="weightLevel">体重公斤级</string>
+    <string name="club">赛区/俱乐部</string>
+    <string name="zhanWuJi">战无极/赛法斗</string>
+    <string name="countryOrArea">国籍（或地区）</string>
+    <string name="ageRange">年龄范围</string>
+    <string name="age">年龄：</string>
+    <string name="country">国籍：</string>
+    <string name="level">级别：</string>
+    <string name="honor">荣誉：</string>
+
+    <!-- 回看详情 -->
+    <string name="reviewDetails">回看详情</string>
+    <string name="gameTimes">比赛时间:</string>
+    <string name="send">发送</string>
+    <string name="discuss">我也说一句：</string>
+    <string name="gameIntroduce">赛事介绍</string>
+    <string name="gameIntroduceDetails">12月10日，博客巩固全能男小霸王李军、周也吉欧斯额回复我，在欧洲问衣服新运动中弗洛伦撒与意大利巩固高手上演站五季世界武术搏击玩着正巴萨叫哦我，能男级战队嗜血雷兽刘晓阳、草原狼汤力格、小霸王李军、玉面少受孙锁、击玩着正巴萨叫哦我完...。</string>
+    <string name="gameMath">相关比赛</string>
+    <string name="messageBoard">留言板</string>
+
+    <!-- 选手信息详情 -->
+    <string name="height">身高</string>
+    <string name="weight">体重</string>
+    <string name="armsPan">臂展</string>
+    <string name="skillPoint">技术特点</string>
+    <string name="team">所属运动队</string>
+    <string name="honor_all">全部荣誉：</string>
+    <string name="gameVido">比赛视频</string>
+    <string name="checkAll">查看全部</string>
+    <string name="zhanJi">战绩：</string>
+
+    <!-- 新闻资讯 -->
+    <string name="topNews">头条资讯</string>
+    <string name="gameNews">赛事新闻</string>
+    <string name="more">更多</string>
+
+    <!-- 商城 -->
+    <string name="dailyUse">生活用品</string>
+    <string name="electronicProduct">电子产品</string>
+    <string name="luckyProduct">运动搏击</string>
+    <string name="productAll">全部商品</string>
+    <string name="goldenGlove">可使用金手套兑换</string>
+    <string name="Glove">使用金手套兑换</string>
+    <string name="choiceAll">全选</string>
+    <string name="emptyAll">结算</string>
+    <string name="total">合计：</string>
+    <string name="joinWishList">加入许愿单</string>
+    <string name="goodsIntroduce">商品介绍</string>
+    <string name="pushDown">下拉查看图文详情</string>
+    <string name="joinShoppingCar">加入购物车</string>
+    <string name="buy">购买</string>
+    <string name="leaveMsg">给商家留言......</string>
+    <string name="payWays">选择支付方式</string>
+    <string name="apliyPay">支付宝支付</string>
+    <string name="weixinPay">微信支付</string>
+    <string name="sum">小计：</string>
+    <string name="submitOrder">提交订单</string>
+    <string name="choiceAdress">选择收货地址</string>
+    <string name="addAdress">添加</string>
+    <string name="Adress">收货地址：</string>
+
+    <!-- 商城 -->
+    <string name="signIn">签到</string>
+    <string name="myGlove">我的金手套：</string>
+    <string name="topUp">充值</string>
+    <string name="signName">签名：</string>
+    <string name="myAttention">我的关注</string>
+    <string name="myCollection">我的收藏</string>
+    <string name="myShare">我的分享</string>
+    <string name="gloveDeal">金手套交易</string>
+    <string name="storeOrder">商城订单</string>
+    <string name="myFighterGuss">我的加油竞猜</string>
+    <string name="myGame">我的抽奖游戏</string>
+    <string name="mySurperDream">我的超级梦想</string>
+    <string name="setting">设置</string>
+
+    <!-- 我的 -->
+    <string name="myPhoto">我的头像</string>
+    <string name="secondName">昵称</string>
+    <string name="sex">性别</string>
+    <string name="phoneNum">手机号</string>
+    <string name="signNum">签名</string>
+    <string name="bindThird">绑定第三方</string>
+    <string name="manageAdress">管理收货地址</string>
+    <string name="save">保存</string>
+    <string name="changeName">修改个性签名</string>
+    <string name="putName">输入个性签名</string>
+    <string name="fighter">选手</string>
+    <string name="payAttention">已关注</string>
+    <string name="finish">已结束</string>
+    <string name="delete">删除</string>
+    <string name="unStart">比赛未开始</string>
+    <string name="gloveBalance">金手套余额</string>
+    <string name="gloveDetails">金手套明细</string>
+    <string name="recods">抽奖记录</string>
+    <string name="obtainPrize">获得奖品：</string>
+    <string name="spendGloveNum">花费金手套个数：</string>
+    <string name="publish">正在揭晓</string>
+    <string name="publishPlan">揭晓进度</string>
+    <string name="dreamUp">梦想落空</string>
+    <string name="deleteOrder">删除订单</string>
+    <string name="changePassword">修改密码</string>
+    <string name="sendNewMessage">新消息推送</string>
+    <string name="clean">清空缓存</string>
+    <string name="suggestionBack">意见反馈</string>
+    <string name="aboutUs">关于我们</string>
+    <string name="out">退出登录</string>
+    <string name="inputOldPassword">请输入旧密码</string>
+    <string name="inputNewPassword">请输入新密码</string>
+    <string name="confirmPassword">确认密码</string>
+    <string name="confirmChange">确认修改</string>
+    <string name="report">举报</string>
+    <string name="writeSuggesstion">请写下您对我们的意见或者时建议...</string>
+    <string name="finishtn">完成</string>
+    <string name="heartFlower">心花怒放</string>
+    <string name="company">博克森娱乐科技有限公司</string>
+    <string name="claim">心花怒放是福克斯等12月10日，博客巩固全能男级战队嗜血雷兽刘晓阳、草原狼汤力格、小霸王李军、玉面少受孙锁、塞外豪侠青格乐讲出正欧罗巴周也吉欧斯额回复我</string>
+
+    <string name="nan">男</string>
+    <string name="nv">女</string>
+    <string name="weightL">重量级</string>
+    <string name="lightL">轻量级</string>
+    <string name="lightLl">次轻量级</string>
+    <string name="zhanWuJiJ">战无极</string>
+    <string name="saiDouFa">赛法斗</string>
+    <string name="fighterKing">我是拳王</string>
+    <string name="kongFu">功夫全能技</string>
+    <string name="chongzhi">充值</string>
+    <string name="weibo">微博</string>
+    <string name="weixin">微信</string>
+    <string name="QQ">QQ</string>
+
+    <!-- popuWindow -->
+    <string name="beijing">北京赛区</string>
+    <string name="shanghai">上海赛区</string>
+    <string name="hainan">海南赛区</string>
+    <string name="heilongjiang">黑龙江赛区</string>
+    <string name="guangzhou">广州赛区</string>
+    <string name="shanxi">山西赛区</string>
+    <string name="shandong">山东赛区</string>
+    <string name="nanjing">南京赛区</string>
+    <string name="xian">西安赛区</string>
+    <string name="signInList">签到榜</string>
+
+    <!-- WXPayEntryActivity -->
+    <string name="pay_result_tip">这个界面用于显示第三方app通过微信支付的结果</string>
+    <string name="pay_result_callback_msg" formatted="false">微信支付结果：%s</string>
+    <string name="app_tip">提示</string>
+    <string name="pay_by_wx_title">通过微信支付</string>
+    <string name="pay_by_wxap">服务器端签名微信支付</string>
+
+
+    <!--权限-->
+    <string name="permission_get_accounts_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_GET_ACCOUNTS</string>
+    <string name="permission_read_phone_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_READ_PHONE_STATE</string>
+    <string name="permission_call_phone_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_CALL_PHONE</string>
+    <string name="permission_camera_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_CAMERA</string>
+    <string name="permission_access_fine_location_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_ACCESS_FINE_LOCATION</string>
+    <string name="permission_access_coarse_location_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_ACCESS_COARSE_LOCATION</string>
+    <string name="permission_read_external_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_READ_EXTERNAL_STORAGE</string>
+    <string name="permission_white_external_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_WRITE_EXTERNAL_STORAGE</string>
+    <string name="permission_recode_audio_hint">没有此权限，无法开启这个功能，请开启权限。PERMISSION_RECORD_AUDIO</string>
+</resources>

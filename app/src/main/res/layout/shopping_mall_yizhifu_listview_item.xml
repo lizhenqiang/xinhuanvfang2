@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="10dp"
+    android:paddingTop="10dp"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:paddingLeft="5dp"
+        android:paddingTop="5dp" >
+
+        <TextView
+            android:id="@+id/shopping_bianhao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="订单编号:" />
+
+        <TextView
+            android:id="@+id/shopping_mall_bianhao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/shopping_bianhao"
+            android:text="123465789" />
+
+        <TextView
+            android:id="@+id/shopping_mall_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:paddingRight="10dp"
+            android:text="123465789" />
+    </RelativeLayout>
+
+    <com.bigdata.xinhuanufang.custom.ListViewNesting
+        android:id="@+id/shopping_mall_yizhifu_listview_child"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="7" >
+    </com.bigdata.xinhuanufang.custom.ListViewNesting>
+
+    <RelativeLayout
+        android:background="@color/white"
+        android:paddingTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/shopping_mall_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="" />
+    </RelativeLayout>
+    <RelativeLayout 
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="交易完成"
+            android:layout_centerVertical="true"
+            android:textColor="@color/main_red"
+            android:layout_alignParentLeft="true"
+            />
+        <Button 
+            android:id="@+id/shopping_mall_yizhifu_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="删除订单"
+            android:paddingLeft="8dp"
+            android:textColor="@color/white"
+            android:layout_alignParentRight="true"
+            android:background="@color/split_line"
+            />
+    </RelativeLayout>
+
+</LinearLayout>

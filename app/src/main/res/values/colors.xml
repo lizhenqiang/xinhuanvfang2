@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="trans_black">#88000000</color>
+    <color name="trans_white">#88FFFFFF</color>
+    <color name="main_red">#d63c3c</color>
+    <color name="split_line">#d1d1d1</color>
+    <color name="remind_color">#999999</color>
+    <color name="second_text">#777777</color>
+    <color name="main_text">#333333</color>
+    <color name="white">#FFFFFF</color>
+    <color name="with_splitLine">#f8f8f8</color>
+    <color name="blue">#33b3f6</color>
+    <color name="navpage">#FFE1E8EB</color>
+    <color name="black">#000000</color>
+</resources>

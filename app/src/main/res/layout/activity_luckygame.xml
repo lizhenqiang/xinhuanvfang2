@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/item_title_title" />
+
+    <TextView
+        android:id="@+id/data_refresh_time"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/with_splitLine"
+        android:gravity="center"
+        android:paddingLeft="5dp"
+        android:text="数据更新于2017-01-15 09:50"
+        android:textColor="@color/remind_color"
+        android:textSize="12sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="5dp"
+        android:layout_weight="1"
+        android:gravity="center_vertical"
+        android:text="@string/recods"
+        android:textColor="@color/main_text"
+        android:textSize="14sp" />
+
+    <ListView
+        android:id="@+id/lv_alg_records"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9" >
+    </ListView>
+
+</LinearLayout>

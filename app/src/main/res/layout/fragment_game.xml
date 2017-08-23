@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/main_red" >
+
+        <TextView
+            android:id="@+id/tv_fragG_gameReview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/tv_fragG_fighterMsg"
+            android:text="@string/gameReview"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <View
+            android:id="@+id/v_fragG_gameTab"
+            android:layout_width="55dp"
+            android:layout_height="2dp"
+            android:layout_alignRight="@+id/tv_fragG_gameReview"
+            android:layout_below="@+id/tv_fragG_gameReview"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_fragG_fighterMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="@string/fighterMsg"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <View
+            android:id="@+id/v_fragG_fighterTab"
+            android:layout_width="55dp"
+            android:layout_height="2dp"
+            android:layout_alignRight="@+id/tv_fragG_fighterMsg"
+            android:layout_below="@+id/tv_fragG_fighterMsg"
+            android:background="@color/white" />
+
+        <TextView
+            android:id="@+id/tv_fragG_news"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@+id/tv_fragG_fighterMsg"
+            android:text="@string/news"
+            android:textColor="#fff"
+            android:textSize="14sp" />
+
+        <View
+            android:id="@+id/v_fragG_newsTab"
+            android:layout_width="55dp"
+            android:layout_height="2dp"
+            android:layout_alignRight="@+id/tv_fragG_news"
+            android:layout_below="@+id/tv_fragG_news"
+            android:background="@color/white" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/game_search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:background="#10000000" >
+
+        <LinearLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="35dp"
+            android:layout_marginBottom="7dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="7dp"
+            android:background="@color/white" >
+
+            <!--
+                 <ImageView
+                android:id="@+id/sousuo_picture"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="5dp"
+                android:layout_toLeftOf="@+id/tv_fragG_search"
+                android:src="@drawable/sousuo" />
+            -->
+
+            <EditText
+                android:id="@+id/tv_fragG_search"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_centerHorizontal="true"
+                android:background="@null"
+                android:drawableLeft="@drawable/sousuo"
+                android:focusableInTouchMode="true"
+                android:imeOptions="actionSearch"
+                android:inputType="text"
+                android:singleLine="true"
+                android:textColor="@color/remind_color"
+                android:textSize="10sp" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/game_sousuo"
+             android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:paddingRight="3dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/relativeLayout1"
+            android:text="搜索" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_fragG_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/item_title_title" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/main_red"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="20dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="你还有"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+
+            <TextView
+                android:id="@+id/mine_choujiang_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:text=" "
+                android:textColor="#FFD700"
+                android:textSize="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="次砸金蛋机会"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/mine_zajindan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:paddingTop="10dp" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="5dp"
+                android:src="@drawable/dianji" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:text="去砸金蛋"
+                android:textColor="@color/white"
+                android:textSize="16dp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/refresh_date"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#F5F5F5"
+        android:gravity="center"
+        android:text="数据更新时间" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_jincaijilu"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="@null"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="竞猜记录"
+                android:textColor="@color/second_text"
+                android:textSize="12sp" />
+
+            <View
+                android:id="@+id/superdream_jincaijilu"
+                android:layout_width="60dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#FF0000" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/btn_zajindan"
+                android:layout_width="match_parent"
+                android:layout_height="38dp"
+                android:background="@null"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="砸金蛋记录"
+                android:textColor="@color/second_text"
+                android:textSize="12sp" />
+
+            <View
+                android:id="@+id/superdream_zajindan"
+                android:layout_width="60dp"
+                android:layout_height="2dp"
+                android:layout_gravity="center_horizontal"
+                android:background="#FF0000"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_mine_guessing"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+
+</LinearLayout>

@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/item_title_title" />
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <android.support.v4.view.ViewPager
+                android:id="@+id/dream_details_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"></android.support.v4.view.ViewPager>
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/super_dream_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="iphone7 5.5英寸 120G"/>
+                <TextView
+                    android:visibility="gone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="iphone7 如期而至 颜色随机"/>
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/tv_agrd_youdianzan"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/shape_red_stroke"
+                    android:paddingBottom="5dp"
+                    android:paddingTop="5dp"
+                    android:text="  梦想进行中  "
+                    android:textColor="@color/main_red"
+                    android:textSize="12sp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:layout_width="80dp"
+                    android:layout_height="30dp"
+                    android:layout_below="@+id/tv_agrd_youdianzan"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/shape_red_stroke"
+                    android:text="  方式一  "
+                    android:textColor="@color/main_red"
+                    android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="无需等待,直接购买"
+                        />
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="一口价"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    />
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    >
+                    <TextView
+                        android:id="@+id/super_dream_price_money"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textColor="@color/main_red"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_alignParentLeft="true"
+                        android:text="¥5329.00"
+                        />
+                    <Button
+                        android:id="@+id/super_now_buy"
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_below="@+id/tv_agrd_youdianzan"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/shape_red_stroke"
+                        android:text="  直接购买  "
+                        android:textColor="@color/main_red"
+                        android:textSize="12sp" />
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <Button
+                        android:layout_width="80dp"
+                        android:layout_height="30dp"
+                        android:layout_below="@+id/tv_agrd_youdianzan"
+                        android:layout_centerHorizontal="true"
+                        android:background="@drawable/shape_red_stroke"
+                        android:text="  方式二  "
+                        android:textColor="@color/main_red"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="参与超级梦想,就有机会获得该商品"
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    >
+                    <LinearLayout
+                        android:layout_marginTop="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        >
+                        <TextView
+                            android:id="@+id/super_dream_qishu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=""
+                            />
+                        <ProgressBar
+                            android:paddingLeft="12dp"
+                            android:layout_marginTop="10dp"
+                            android:id="@+id/super_dream_main_progress"
+                            style="?android:attr/progressBarStyleHorizontal"
+                            android:progressDrawable="@drawable/barcolor"
+                            android:layout_width="160dp"
+                            android:layout_height="3dp"
+                            android:layout_gravity="center_vertical"
+                            android:max="100"
+                            android:progress="0"
+                            android:secondaryProgress="0" />
+                        <TextView
+                            android:id="@+id/dream_jiexiao_progress"
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="揭晓进度:"
+                            android:textColor="@color/main_red"
+                            />
+                    </LinearLayout>
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+                        <Button
+                            android:id="@+id/main_join_dream"
+                            android:layout_width="80dp"
+                            android:layout_height="30dp"
+                            android:layout_below="@+id/tv_agrd_youdianzan"
+                            android:layout_centerHorizontal="true"
+                            android:background="@drawable/shape_red_stroke"
+                            android:text="  加入梦想  "
+                            android:layout_centerVertical="true"
+                            android:textColor="@color/main_red"
+                            android:textSize="12sp" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+            <TextView
+                android:id="@+id/activs_rule"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/main_red"
+                android:text="查看超级梦想[活动说明]及游戏规则"
+                />
+
+            <TextView
+                android:id="@+id/is_add_dream"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:background="@color/split_line"
+                android:text="你还没有参与本次超级梦想哦"
+                />
+
+            <WebView
+                android:id="@+id/dream_details_webview"
+                android:layout_width="match_parent"
+
+                android:layout_height="wrap_content">
+
+            </WebView>
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+</LinearLayout>

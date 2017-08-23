@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/main_red" >
+        <ImageView
+            android:id="@+id/zhuce_black"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/back_1"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="注册协议"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+    <TextView
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    欢迎您注册并使用我公司心花怒放APP。"
+        />
+    <TextView
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    请务必认真阅读和理解本《心花怒放app许可使用协议》（以下简称“《协议》”）中规定的所有权利和限制。除非您接受本《协议》条款，否则您无权下载、安装或使用随附本《协议》的心花怒放app（以下简称“本软件”）及其相关服务。您一旦安装、复制、下载、访问或以其它方式使用本软件产品，将视为对本《协议》的接受，即表示您同意接受本《协议》各项条款的约束。如果您不同意本《协议》中的条款，请不要安装、复制或使用本软件。。"
+        />
+    <TextView
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    本《协议》是用户与北京博克森娱乐科技有限公司（下称“博克森”）之间关于用户下载、安装、使用、复制本软件的法律协议。。"
+        />
+    <TextView
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1.权利声明"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    本软件的一切知识产权，以及与本软件相关的所有信息内容，包括但不限于：文字表述及其组合、图标、图饰、图像、图表、色彩、界面设计、版面框架、有关数据、附加程序等均为博克森所有，受著作权法和国际著作权条约以及其他知识产权法律法规的保护。
+软件的修改和升级： 博克森保留随时为用户提供本软件的修改、升级版本的权利；保留随时修改或升级而不需告知用户的权利。
+本软件内所有活动均由博克森组织，所涉奖品的提供、发放及后续服务均与苹果公司及iOS AppStore无关。
+"
+        />
+
+    <TextView
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2.用户注册"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1)用户注册是指用户登录本软件，按要求填写相关信息并确认同意本协议的过程。"
+        />
+        <TextView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2)本软件用户必须是具有满18周岁且具有完全民事行为能力的自然人。无民事行为能力人、限制民事行为能力人不得注册为本软件用户，否则服务协议自始无效，心花怒放有权立即停止与该用户的交易、注销该用户账户，并有权要求其承担相应法律责任。"
+            />
+
+    <TextView
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3.用户的帐号、密码和安全性"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="  用户一旦注册成功，即成为心花怒放APP的合法用户。用户将对用户名和密码安全负全部责任。此外，每个用户都要对以其用户名进行的所有活动和事件负全责。用户若发现任何非法使用用户账号或存在安全漏洞的情况，请立即反馈通告。"
+        />
+        <TextView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4.用户的权利和义务"
+            android:textSize="20dp"
+            />
+    <TextView
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1)用户有权拥有其在心花怒放的用户名及密码，并用该用户名和密码登录本软件参与相关活动。用户不得以任何形式转让或授权他人使用自己的心花怒放用户名及密码。"
+        />
+        <TextView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2)用户有权根据本协议的规定以及发布的相关规则在本软件上查询信息、评论比赛、参与活动、邀请好友等，以及享受本软件提供的其它信息服务。"
+            />
+        <TextView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3)用户有义务在注册时提供自己的真实资料，并保证诸如联系电话、联系地址等内容的有效性及真实性，保证本软件可以通过上述联系方式与用户本人进行联系。同时，用户也有义务在相关资料发生变更时及时更新有关注册资料。"
+            />
+        <TextView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4)用户应当保证在留言板或其他版块参与留言时遵守文明发言原则，不发生包含攻击、侮辱或其它扰乱网上正常秩序的行为，否则本软件有权删除该留言。"
+            />
+        <TextView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5)用户在成为本软件的会员后，可按分享、签到规则获得金手套奖励。累积金手套可用于商城中的相应商品兑换。分享、签到规则连同与该规则相关的条款和条件，构成用户与心花怒放之间的完整协议。接受本协议，即表明接受分享、签到规则中的条款和条件。"
+            />
+        <TextView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6)用户享有言论自由权利；但用户不得在本软件发表包含以下内容的言论："
+            />
+        <TextView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  a)反对宪法所确定的基本原则，煽动、抗拒、破坏宪法和法律、行政法规实施的；"
+            />
+        <TextView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  b)煽动颠覆国家政权，推翻社会主义制度，煽动、分裂国家，破坏国家统一的；"
+            />
+        <TextView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  c)损害国家荣誉和利益的；"
+            />
+        <TextView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  d)	煽动民族仇恨、民族歧视，破坏民族团结的；"
+            />
+        <TextView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  e)任何包含对种族、性别、宗教、地域内容等歧视的；"
+            />
+        <TextView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  f)捏造或者歪曲事实，散布谣言，扰乱社会秩序的；"
+            />
+        <TextView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  g)宣扬封建迷信、邪教、淫秽、色情、赌博、暴力、凶杀、恐怖、教唆犯罪的；"
+            />
+        <TextView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  h)公然侮辱他人或者捏造事实诽谤他人的，或者进行其他恶意攻击的；"
+            />
+        <TextView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  i)损害国家机关信誉的；"
+            />
+        <TextView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  j)其他违反宪法和法律行政法规的。"
+            />
+        <TextView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7)未经本公司书面同意，禁止用户在本软件发布任何形式的广告。"
+            />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="5.心花怒放的权利和义务"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1)心花怒放有义务在现有技术上维护软件的正常运行，并努力提升和改进技术，使用户有更好的操作体验。"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2)对用户在注册和使用本软件中所遇到的问题及反映的情况，心花怒放应及时作出回复。"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3)对于用户在本软件中做出下列行为的，心花怒放有权做出冻结相关信息、终止提供服务等处理，而无须征得用户的同意："/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  a)心花怒放有权对用户的注册信息及其操作行为进行查阅，发现注册信息或行为中存在任何问题的，有权向用户发出询问及要求改正的通知或者做出其它处理等；"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  b)用户违反本协议规定或有违反法律法规和地方规章的行为的，心花怒放有权停止传输并删除其信息，禁止用户发言，注销用户账户并按照相关法律规定向相关主管部门进行披露；"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  c)对于用户在心花怒放进行的下列行为，心花怒放有权对用户采取删除其信息、禁止用户发言、注销用户账户等限制性措施：包括发布或以电子邮件或以其他方式传送存在恶意、虚假和侵犯他人人身财产权利内容的信息，进行与比赛无关或不是以分享比赛为目的的活动，恶意注册、签到、评论等方式试图扰乱正常秩序，或发布其他违反公共利益或可能严重损害心花怒放和其它用户合法利益的信息；"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4)对于本软件已上架商品，心花怒放有权根据市场变动修改商品价格，而无需提前通知用户，以用户下单时价格为准。"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5)本软件的超级梦想购物模式，秉着公平公正公开的原则，且用户应在知晓该模式存在一定的风险的前提下自愿参与，望所有用户谨慎参与。"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="6)用户参与心花怒放的竞猜活动、超级梦想或幸运转盘等相关活动，投入的金手套无法退还（竞猜活动中比赛打平除外），请注意风险。"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="7)用户充值到心花怒放账户的资金只能用于兑换金手套或购物消费，不可以提现，请充值时注意充值金额。"/>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="6.配送及费用"
+            android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="心花怒放将会把产品送到您所指定的送货地址。全国免费配送（特殊商品及港澳台地区除外）。
+请清楚准确地填写您的真实姓名、送货地址及联系方式。因如下情况造成配送延迟或无法配送等，本软件将不承担责任：
+"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1)客户提供错误信息或不详细的地址；"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2)货物送达无人签收，由此造成的重复配送所产生的费用及相关的后果。"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3)不可抗力的原因，例如：自然灾害等。"
+            />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="7.商品缺货规则"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="用户通过参与购买所获得的商品如果发生缺货，用户和心花怒放皆有权取消该交易，所花费的金手套或款项，心花怒放将全部原路返还。如双方均同意不取消该交易，则心花怒放对缺货商品进行登记，心花怒放会尽最大努力在最快时间内满足用户的购买需求，当缺货商品到货，将第一时间通知用户，联系用户进行配送。"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="8.网络服务内容的所有权"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="本软件定义的网络服务内容包括：文字、软件、声音、图片、录象、图表、广告中的全部内容，及本软件为用户提供的其他信息。所有这些内容受版权、商标、标签和其它财产所有权法律的保护。所以，用户只能在本软件授权下才能使用这些内容，而不能擅自复制、再造这些内容、或创造与内容有关的派生产品。本软件所有的文章版权归原文作者和本软件共同所有，任何人需要转载本软件的文章，必须征得原文作者或心花怒放的授权。"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="9.用户隐私制度"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="我们不会向任何第三方提供，出售，出租，分享和交易用户的个人信息。当在以下情况下，用户的个人信息将部分或全部被善意披露："
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  1)经用户同意，向第三方披露。"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  2)根据法律的有关规定，或者行政或司法机构的要求，向第三方或者行政、司法机构披露。"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  3)如果用户出现违反中国有关法律或者网站政策的情况，需要向第三方披露。"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  4)为提供你所要求的产品和服务，而必须和第三方分享用户的个人信息。"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="  5)其它根据法律或者运营政策认为合适的披露。"
+            />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="10.法律管辖和适用"
+        android:textSize="20dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1)本协议的订立、执行和解释及争议的解决均应适用中国法律。"
+        />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2)如发生本软件服务条款与中国法律相抵触时，则这些条款将完全按法律规定重新解释，而其它合法条款则依旧保持对用户产生法律效力和影响。"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="3)本协议的规定是可分割的，如本协议任何规定被裁定为无效或不可执行，该规定可被删除而其余条款应予以执行。"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4)如双方就本协议内容或其执行发生任何争议，双方应尽力友好协商解决；协商不成时，任何一方均可向博克森所在地的人民法院提起诉讼。"
+            />
+
+    </LinearLayout>
+    </ScrollView>
+    <!--<WebView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/zhuce_webview_rule"
+        ></WebView>-->
+
+</LinearLayout>

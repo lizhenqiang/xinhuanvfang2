@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center_vertical"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/yazhu_jinshoutao"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="押注"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/jian"
+            android:layout_height="wrap_content"
+            android:id="@+id/jinshoutao_jianshao"
+            />
+        <EditText
+            android:layout_width="0dp"
+            android:layout_weight="4"
+            android:text="100"
+            android:inputType="number"
+            android:maxLength="6"
+            android:layout_height="wrap_content"
+            android:id="@+id/shuru_jishoutao_number"
+            />
+
+        <ImageView
+            android:id="@+id/jinshoutao_zengjia"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/jia" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="个金手套"/>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:background="@color/split_line"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="30dp">
+        <TextView
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="剩余金手套"
+
+            />
+        <TextView
+            android:id="@+id/bisaiyugao_hava_jinshoutao"
+            android:paddingLeft="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10"
+            android:textColor="@color/main_red"
+            />
+
+        <TextView
+            android:id="@+id/bisaiyugao_quchongzhi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/main_red"
+            android:text="去充值"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/cancler"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:textColor="@color/split_line"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="取消"
+            />
+        <Button
+            android:id="@+id/enter"
+            android:layout_marginLeft="10dp"
+            android:gravity="center"
+            android:background="@null"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="确定"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

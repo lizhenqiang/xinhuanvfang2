@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bigdata.xinhuanufang"
+    android:versionCode="1"
+    android:versionName="1.0">
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+    <!--华为需要的权限,是否保留有待测试-->
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <uses-feature android:name="android.hardware.Camera" />
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="com.bigdata.xinhuanufang.permission.JPUSH_MESSAGE" />
+    <uses-permission android:name="android.permission.FORCE_STOP_PACKAGES" />
+
+    <!-- 腾讯直播 -->
+
+
+    <!-- JPush自定义的权限，必须配置，否则无法初始化成功 -->
+    <permission
+        android:name="com.bigdata.xinhuanufang.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <application
+        android:name=".app.MyApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/xinhuanufang"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".main.LoginActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <!-- 赛事回看 -->
+        <!-- <activity -->
+        <!-- android:name="io.vov.vitamio.activity.InitActivity" -->
+        <!-- android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation" -->
+        <!-- android:launchMode="singleTop" -->
+        <!-- android:theme="@android:style/Theme.NoTitleBar" -->
+        <!-- android:windowSoftInputMode="stateAlwaysHidden" /> -->
+
+
+        <!-- 微博登录 -->
+        <activity
+            android:name="com.sina.weibo.sdk.component.WeiboSdkBrowser"
+            android:configChanges="keyboardHidden|orientation"
+            android:exported="false"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".main.SuperDreamActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".main.GussingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".main.videoplayer.LivePlayerActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".main.MainActivity"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name=".main.LuckDraw"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="com.sina.weibo.sdk.action.ACTION_SDK_REQ_ACTIVITY" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".main.GameGussingDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".main.BreakGoldEgg"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".main.AddDreamActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".main.MessageCenterActivty"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".main.MessageDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".main.DreamListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.ReviewDetailsActivity"
+            android:screenOrientation="portrait" />
+        <!--
+        <activity
+            android:name=".game.detailsVideoInfo"
+            android:process=":vitamio"
+
+            android:screenOrientation="landscape">
+
+        </activity>
+        -->
+        <activity
+            android:name=".game.FighterDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.TopNewsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.MoreMatch"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".store.ShoppingCarActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".store.GoodsDetailsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".store.ConfirmOrderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".store.GoodsAdressActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mine.PersonalInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mine.MyShoppingMall"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mine.MineJiaYouGuessing"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mine.ChangeNameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mine.ChangeSignNameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mine.MyAttentionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mine.MyCollectionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mine.DeleteCollectionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mine.MyShareActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mine.GoldenGloveActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mine.LuckyGameActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mine.MySuperDreamActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mine.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mine.ChangePasswordActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mine.SuggestionBackActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mine.AboutUsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mine.BuyGoldenGloveActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mine.DetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mine.ShoppingOrderInfo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".main.GussingResulDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".main.UserInfo"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".main.jiayoujingcaishuoming"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".main.ForgetPassword"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".mine.SignInListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".store.LiveAppliance"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".store.StoreElectron"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".store.zhifubao.ZhiFuBaoPay"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".store.LuickWare"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.Information"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.SearchpFinghterActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name="com.bigdata.xinhuanufang.to.zhuceRule"
+            android:screenOrientation="portrait"/>
+        <activity android:name="com.bigdata.xinhuanufang.to.SuperDreamRule"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".store.EditAddress"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".store.AddAddress"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".store.picture.ImgFileListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".store.picture.ImgsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.SearchpNewsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".game.SearchpGameActivity"
+            android:screenOrientation="portrait" />
+
+        <!-- 统一WebView播放 -->
+        <activity
+            android:name=".main.InterViewWebActivity"
+            android:hardwareAccelerated="true"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.Light.NoTitleBar.Fullscreen" />
+        <!-- 微信支付 -->
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:exported="true"
+            android:launchMode="singleTask" />
+        <!-- 微信登录 -->
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <!-- android:launchMode="singleTop" -->
+        <!-- &lt;!&ndash;腾讯QQ分享&ndash;&gt; -->
+        <!-- <activity -->
+        <!-- android:name="com.tencent.tauth.AuthActivity" -->
+        <!-- android:launchMode="singleTask" -->
+        <!-- android:noHistory="true"> -->
+        <!-- <intent-filter> -->
+        <!-- <action android:name="android.intent.action.VIEW" /> -->
+
+
+        <!-- <category android:name="android.intent.category.DEFAULT" /> -->
+        <!-- <category android:name="android.intent.category.BROWSABLE" /> -->
+
+
+        <!-- <data android:scheme="tencent1104989610" /> -->
+        <!-- </intent-filter> -->
+        <!-- </activity> -->
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!-- QQ登录 -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="tencent1106076127" />
+            </intent-filter>
+        </activity>
+
+        <!-- 极光推送 -->
+        <!-- Required SDK核心功能 -->
+        <activity
+            android:name="cn.jpush.android.ui.PushActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:exported="false"
+            android:theme="@android:style/Theme.NoTitleBar">
+            <intent-filter>
+                <action android:name="cn.jpush.android.ui.PushActivity" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="com.bigdata.xinhuanufang" />
+            </intent-filter>
+        </activity>
+        <!-- Required  SDK核心功能 -->
+        <service
+            android:name="cn.jpush.android.service.DownloadService"
+            android:enabled="true"
+            android:exported="false" />
+        <!-- Rich push 核心功能 since 2.0.6 -->
+        <activity
+            android:name="cn.jpush.android.ui.PopWinActivity"
+            android:exported="false"
+            android:theme="@style/MyDialogStyle" />
+
+        <!-- Required SDK 核心功能 -->
+        <!-- 可配置android:process参数将PushService放在其他进程中 -->
+        <!-- android:enabled="true" -->
+        <!-- android:exported="false" -->
+        <service
+            android:name="cn.jpush.android.service.PushService"
+            android:process=":mult">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTER" />
+                <action android:name="cn.jpush.android.intent.REPORT" />
+                <action android:name="cn.jpush.android.intent.PushService" />
+                <action android:name="cn.jpush.android.intent.PUSH_TIME" />
+            </intent-filter>
+        </service>
+        <!-- Required SDK核心功能 -->
+        <receiver
+            android:name="cn.jpush.android.service.PushReceiver"
+            android:enabled="true">
+            <intent-filter android:priority="1000">
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED_PROXY" /> <!-- Required  显示通知栏 -->
+                <category android:name="com.bigdata.xinhuanufang" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+            <!-- Optional -->
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <!-- &lt;!&ndash; Required SDK核心功能&ndash;&gt; -->
+        <receiver
+            android:name="cn.jpush.android.service.AlarmReceiver"
+            android:exported="false" />
+        <!-- User defined.  For test only  用户自定义的广播接收器 -->
+        <receiver
+            android:name=".app.MyReceiver"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.REGISTRATION" /> <!-- Required  用户注册SDK的intent -->
+                <action android:name="cn.jpush.android.intent.MESSAGE_RECEIVED" /> <!-- Required  用户接收SDK消息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_RECEIVED" /> <!-- Required  用户接收SDK通知栏信息的intent -->
+                <action android:name="cn.jpush.android.intent.NOTIFICATION_OPENED" /> <!-- Required  用户打开自定义通知栏的intent -->
+                <action android:name="cn.jpush.android.intent.CONNECTION" /> <!-- 接收网络变化 连接/断开 since 1.6.3 -->
+                <category android:name="com.bigdata.xinhuanufang" />
+            </intent-filter>
+        </receiver>
+
+        <!-- &lt;!&ndash; Required  . Enable it you can get statistics data with channel &ndash;&gt; -->
+        <meta-data
+            android:name="JPUSH_CHANNEL"
+            android:value="developer-default" />
+        <meta-data
+            android:name="JPUSH_APPKEY"
+            android:value="6485740ccf836aa33e19fa6f" /> <!-- </>值来自开发者平台取得的AppKey -->
+        <!-- 支付宝支付 -->
+
+
+        <!-- 友盟多渠道打包 -->
+        <meta-data
+            android:name="UMENG_CHANNEL"
+            android:value="${UMENG_CHANNEL_VALUE}" />
+        <activity
+            android:name="com.alipay.sdk.app.H5PayActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" />
+        <activity
+            android:name="com.alipay.sdk.auth.AuthActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:exported="false"
+            android:screenOrientation="behind" />
+
+    </application>
+
+</manifest>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/main_red" >
+
+        <ImageView
+            android:id="@+id/super_dream_black"
+            android:layout_centerVertical="true"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/back_1"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:text="加油竞猜规则"
+            android:textColor="#ffffff"
+            android:textSize="16sp" />
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="规则:"
+                android:textSize="20dp"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1.用户可以在比赛开始前选择支持自己心仪的选手，使用金手套为选手加油，数量不限。"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2.一场比赛只能选择支持一方选手，不支持打平，如遇打平则退还金手套。"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3.用户支持的选手打输比赛，则支持的金手套不予退还。"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4.奖励方法：如果支持的选手获得比赛胜利，可根据金手套数量多少获得相应奖励；如加油的金手套数量大于等于100个，用户获得砸金蛋的资格（投入金手套数量/100=砸金蛋次数），可获得丰厚奖励，100%中奖；如果用户支持的选手取得比赛的胜利，并且加油的金手套数量小于100，用户将自动获得双倍数量金手套的奖励。"
+                />
+            <TextView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="5.用户砸完赠送的金蛋后；如用户加油的金手套数量小于100个，则用户将自动获得双倍加油金手套的奖励。"
+                />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <!--<WebView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:id="@+id/superfream_webview"-->
+    <!--&gt;</WebView>-->
+</LinearLayout>

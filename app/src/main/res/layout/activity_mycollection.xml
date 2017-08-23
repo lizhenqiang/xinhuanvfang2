@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/item_title_title" />
+
+    <ListView
+        android:id="@+id/lv_amc_collection"
+        android:layout_width="match_parent"
+         android:layout_height="0dp"
+        android:layout_weight="11" >
+    </ListView>
+
+    <RelativeLayout
+        android:id="@+id/collect_quanxuan_delete"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:visibility="invisible" >
+
+        <CheckBox
+            android:id="@+id/collect_checkbox_quanxuan"
+            style="@style/CustomCheckboxTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/weixuanzhong"
+            android:text="全选" />
+
+        <Button
+            android:id="@+id/collect_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@color/main_red"
+            android:text="删除"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</LinearLayout>

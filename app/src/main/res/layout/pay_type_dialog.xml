@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+      android:paddingLeft="1dp"  
+    android:paddingRight="1dp"  
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        ></LinearLayout>
+    
+    
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+         android:gravity="center"
+        >
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="选择你的支付方式"
+            />
+    </LinearLayout>
+      <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        ></LinearLayout>
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:gravity="center"
+        >
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/zhifu_zhifubao"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="支付宝支付"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            />
+          <CheckBox
+              android:id="@+id/zhifubao_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+           style="@style/CustomCheckboxTheme" />
+    </LinearLayout>
+    
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:gravity="center"
+        >
+        <ImageView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/zhifu_weixin"
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="微信支付"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10dp"
+            />
+          <CheckBox
+              android:id="@+id/weixin_pay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="56dp"
+           style="@style/CustomCheckboxTheme" />
+    </LinearLayout>
+     <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        ></LinearLayout>
+
+</LinearLayout>

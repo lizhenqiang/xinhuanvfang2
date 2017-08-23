@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <include layout="@layout/item_title_title" />
+    <ProgressBar
+        android:id="@+id/pb_toutiaozixun"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateDrawable="@drawable/pb_bg"
+        android:visibility="gone"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/xuanshou_quanbu_wu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:text="暂无数据"
+        />
+    <com.bigdata.xinhuanufang.custom.LoadListViewnews
+       android:id="@+id/lv_more_topnew"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></com.bigdata.xinhuanufang.custom.LoadListViewnews>
+
+</LinearLayout>

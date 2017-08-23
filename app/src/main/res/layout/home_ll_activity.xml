@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/ll_home_tilte"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#11999999"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        >
+        <TextView
+
+            android:id="@+id/tv_home_superdream"
+            android:clickable="true"
+            android:singleLine="true"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="超级梦想"
+            android:drawableLeft="@drawable/sy_cjmx"
+            />
+
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#44999999"
+            ></View>
+
+
+        <TextView
+            android:id="@+id/tv_home_guess"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="加油竞猜"
+            android:singleLine="true"
+            android:drawableLeft="@drawable/sy_jyjc"
+
+            />
+
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:background="#44999999"
+            ></View>
+
+        <TextView
+
+            android:id="@+id/tv_home_game"
+            android:clickable="true"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="抽奖游戏"
+            android:singleLine="true"
+            android:drawableLeft="@drawable/sy_cjyx"
+            />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

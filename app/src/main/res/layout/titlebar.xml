@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="10dp"
+    android:background="#D53E37"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:id="@+id/tv_tiltebar"
+
+        android:textColor="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="心花怒放"
+
+        android:textSize="18sp"
+
+        />
+    <ImageView
+
+        android:layout_centerInParent="true"
+        android:layout_alignRight="@+id/tv_tiltebar"
+        android:background="@drawable/tongzhi"
+        android:id="@+id/iv_titlebar_message"
+        android:layout_width="12dp"
+        android:layout_height="18dp" />
+</RelativeLayout>

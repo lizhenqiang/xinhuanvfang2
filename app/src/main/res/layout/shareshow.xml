@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="@color/trans_white"
+        android:paddingTop="10dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="horizontal"
+        >
+        <ImageView
+            android:id="@+id/weibo_share"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/weibo_0"
+            />
+
+        <ImageView
+            android:id="@+id/weixin_share"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/weixin_0"
+            />
+
+        <ImageView
+            android:id="@+id/pengyou_share"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pengyou_0"
+            />
+
+        <ImageView
+            android:id="@+id/qq_share"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/qq_0"
+            />
+        <ImageView
+            android:id="@+id/kongjian_share"
+            android:layout_weight="2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/qqkongjian1"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <include layout="@layout/item_title_title" />
+
+    <LinearLayout
+        android:id="@+id/shopping_zhifubao_dizhilan"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/dizhi_bj"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/dingwei" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="7"
+            android:gravity="center"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:orientation="horizontal" >
+                <TextView
+                    android:id="@+id/address_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5"
+                    android:text="收货人："
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/zhifubao_shoping_address_name"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="10"
+                    android:text="张三"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/zhifubao_shoping_address_tel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="5dp"
+                    android:text="电话"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Adress"
+                    android:paddingLeft="5dp"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/zhifubao_shoping_address_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:text="收货地址"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <!--<LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/xiangyou_1" />
+        </LinearLayout>-->
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/shopping_zhifubao_details"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <!-- 图片布局 -->
+
+        <ImageView
+            android:id="@+id/zhifubao_pay_result_pic"
+            android:layout_width="0dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="2"
+            android:scaleType="centerCrop"
+            android:src="@drawable/icon" />
+        <!-- 商品名称和价格的布局 -->
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="7"
+            android:orientation="vertical" >
+
+            <!-- 商品名称的布局 -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp" >
+
+                <TextView
+                    android:id="@+id/zhifubao_pay_result_shopping_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="连衣裙女夏季"
+                    android:textSize="12sp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/zhifubao_pay_result_fenlei"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="颜色规格分类:无分类"
+                android:textColor="@color/split_line"
+                android:textSize="10sp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/zhifubao_pay_result_price"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:text="￥588.00"
+                    android:textColor="@color/main_red"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/zhifubao_pay_result_num"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="10dp"
+                    android:text="×1"
+                    android:textColor="@color/main_text" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+  <Button
+      android:id="@+id/chongzhi_jinshoutao_number"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:background="@null"
+      android:text="充值金手套"
+      />
+
+    <Button
+        android:id="@+id/zhifubao_pay_result"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dayuanjiao"
+        android:text=""
+        />
+</LinearLayout>

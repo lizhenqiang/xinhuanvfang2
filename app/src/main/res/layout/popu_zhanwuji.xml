@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="250dp"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/game_zhanwuji_quanjineng1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_select"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="院校大奖赛"
+            android:textSize="12sp" />
+        <Button
+            android:id="@+id/game_zhanwuji_quanwang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_select"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="我就是拳王"
+            android:textColor="@color/main_text"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/game_saifadou_quanwang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_select"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="俱乐部联赛"
+            android:textColor="@color/main_text"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/game_zhanwuji_quanjineng2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/background_select"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:text="拳王统一战"
+            android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/game_saifadou_quanjineng1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/background_select"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="功夫世界杯"
+        android:textSize="12sp" />
+
+    <Button
+        android:id="@+id/game_saifadou_quanjineng2"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_weight="1"
+        android:background="@drawable/background_select"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:text="国际赛法斗"
+        android:textSize="12sp" />
+</LinearLayout>
+</LinearLayout>
